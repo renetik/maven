@@ -3,11 +3,10 @@
   <groupId>com.renetik.library</groupId>
   <artifactId>renetik-android-ui-picker</artifactId>
   <versioning>
-    <latest>1.9.16</latest>
-    <release>1.9.16</release>
+    <latest>master-SNAPSHOT</latest>
     <versions>
-      <version>1.9.16</version>
+      <version>master-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220624190259</lastUpdated>
+    <lastUpdated>20220624193453</lastUpdated>
   </versioning>
 </metadata>

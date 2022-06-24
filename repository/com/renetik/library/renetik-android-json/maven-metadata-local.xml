@@ -3,11 +3,10 @@
   <groupId>com.renetik.library</groupId>
   <artifactId>renetik-android-json</artifactId>
   <versioning>
-    <latest>1.9.16</latest>
-    <release>1.9.16</release>
+    <latest>master-SNAPSHOT</latest>
     <versions>
-      <version>1.9.16</version>
+      <version>master-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220624190228</lastUpdated>
+    <lastUpdated>20220624193442</lastUpdated>
   </versioning>
 </metadata>
