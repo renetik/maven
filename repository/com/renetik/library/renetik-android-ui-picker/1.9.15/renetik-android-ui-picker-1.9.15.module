@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-ui-picker",
+    "version": "1.9.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.shawnlin",
+          "module": "number-picker",
+          "version": {
+            "requires": "2.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-ui-picker-1.9.15.aar",
+          "url": "renetik-android-ui-picker-1.9.15.aar",
+          "size": 13126,
+          "sha512": "14e053327ae04c4425f2aab23626766244de7e0f1d0a2b586981931bb8da61cb99c493f15378f177b106b89c5798b5328c0a59391f5af25dfe64a484ca58cd5e",
+          "sha256": "d554dbd14958b591acb751fe1910c8ca7865ff2562da39b47aa4f9159d34c2a0",
+          "sha1": "8326e15ac196c1030f9bfe5b032f29689ee1be5b",
+          "md5": "ae71b1ac1f5be25239567720a48923c6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.shawnlin",
+          "module": "number-picker",
+          "version": {
+            "requires": "2.4.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.15"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.15"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.15"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller",
+          "version": {
+            "requires": "1.9.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-ui-picker-1.9.15.aar",
+          "url": "renetik-android-ui-picker-1.9.15.aar",
+          "size": 13126,
+          "sha512": "14e053327ae04c4425f2aab23626766244de7e0f1d0a2b586981931bb8da61cb99c493f15378f177b106b89c5798b5328c0a59391f5af25dfe64a484ca58cd5e",
+          "sha256": "d554dbd14958b591acb751fe1910c8ca7865ff2562da39b47aa4f9159d34c2a0",
+          "sha1": "8326e15ac196c1030f9bfe5b032f29689ee1be5b",
+          "md5": "ae71b1ac1f5be25239567720a48923c6"
+        }
+      ]
+    }
+  ]
+}
