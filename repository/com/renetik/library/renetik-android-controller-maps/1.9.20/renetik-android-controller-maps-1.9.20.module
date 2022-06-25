@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-controller-maps",
+    "version": "1.9.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-controller-maps-1.9.20.aar",
+          "url": "renetik-android-controller-maps-1.9.20.aar",
+          "size": 31189,
+          "sha512": "3d9af379f07f06832fd56d8c9f2ab81f320d1cfd3de29d9abb4b851aa479b79143ae9cf1e3ce1cd91c8852269eb297d1967a9c6f3855f943ed6c4df6df79ae71",
+          "sha256": "1176e0f589de280d1884250c9c59db8cb1f011bbefe49ccaaf1d7345130a9100",
+          "sha1": "85a07e43a6d7140a303af583f053278d086e5eab",
+          "md5": "c97929e845c2ab493fd11a59e3eb30b0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-json",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-store",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-imaging",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "19.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "18.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-controller-maps-1.9.20.aar",
+          "url": "renetik-android-controller-maps-1.9.20.aar",
+          "size": 31189,
+          "sha512": "3d9af379f07f06832fd56d8c9f2ab81f320d1cfd3de29d9abb4b851aa479b79143ae9cf1e3ce1cd91c8852269eb297d1967a9c6f3855f943ed6c4df6df79ae71",
+          "sha256": "1176e0f589de280d1884250c9c59db8cb1f011bbefe49ccaaf1d7345130a9100",
+          "sha1": "85a07e43a6d7140a303af583f053278d086e5eab",
+          "md5": "c97929e845c2ab493fd11a59e3eb30b0"
+        }
+      ]
+    }
+  ]
+}
