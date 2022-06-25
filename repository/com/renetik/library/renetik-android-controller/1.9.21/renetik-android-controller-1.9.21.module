@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-controller",
+    "version": "1.9.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-controller-1.9.21.aar",
+          "url": "renetik-android-controller-1.9.21.aar",
+          "size": 170465,
+          "sha512": "78d4c91e801d3fca4ca3dd7d64a2c45193be0aaca927b1793e29068f14e6e0101c6de75d1d28cb39644b3290d6347e98ea9a23bbace1cb9d7027fc95688b2430",
+          "sha256": "ca0fec7896d1629b330fbf5abae5f3ad986b9c56754c1634ecd21309bf4c9847",
+          "sha1": "f1b4ff410302414be3674b12dfc7dfd3638a0529",
+          "md5": "bd10d060dfce856e084b643e302f18e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-controller-1.9.21.aar",
+          "url": "renetik-android-controller-1.9.21.aar",
+          "size": 170465,
+          "sha512": "78d4c91e801d3fca4ca3dd7d64a2c45193be0aaca927b1793e29068f14e6e0101c6de75d1d28cb39644b3290d6347e98ea9a23bbace1cb9d7027fc95688b2430",
+          "sha256": "ca0fec7896d1629b330fbf5abae5f3ad986b9c56754c1634ecd21309bf4c9847",
+          "sha1": "f1b4ff410302414be3674b12dfc7dfd3638a0529",
+          "md5": "bd10d060dfce856e084b643e302f18e4"
+        }
+      ]
+    }
+  ]
+}
