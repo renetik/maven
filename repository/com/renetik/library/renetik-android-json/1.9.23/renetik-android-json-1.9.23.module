@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-json",
+    "version": "1.9.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-json-1.9.23.aar",
+          "url": "renetik-android-json-1.9.23.aar",
+          "size": 29963,
+          "sha512": "8e73e940a92522f65dfe2c00b928ccf86584f8f484f866d943dcf715a6f07bf8c4573190551677e3f5694e1a9de24f90347c1ce727198859f87f13affb3935f6",
+          "sha256": "f4e4552a9c8637ade6fccf8d6915ee223397add5749cf917efef086200bbf7b0",
+          "sha1": "f9b6b3c1a7e8190d9dd145d636e88fabf296494b",
+          "md5": "4037c2ca5e7cc07b28633d3dcaa2869c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-json-1.9.23.aar",
+          "url": "renetik-android-json-1.9.23.aar",
+          "size": 29963,
+          "sha512": "8e73e940a92522f65dfe2c00b928ccf86584f8f484f866d943dcf715a6f07bf8c4573190551677e3f5694e1a9de24f90347c1ce727198859f87f13affb3935f6",
+          "sha256": "f4e4552a9c8637ade6fccf8d6915ee223397add5749cf917efef086200bbf7b0",
+          "sha1": "f9b6b3c1a7e8190d9dd145d636e88fabf296494b",
+          "md5": "4037c2ca5e7cc07b28633d3dcaa2869c"
+        }
+      ]
+    }
+  ]
+}

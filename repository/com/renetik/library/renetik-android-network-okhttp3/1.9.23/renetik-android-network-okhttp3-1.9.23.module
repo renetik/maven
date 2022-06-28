@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-network-okhttp3",
+    "version": "1.9.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-network-okhttp3-1.9.23.aar",
+          "url": "renetik-android-network-okhttp3-1.9.23.aar",
+          "size": 25156,
+          "sha512": "027e5b0c18db343af10b364bd1e7f8beb3d5bb1c84b2b021dff1ca7a53b2382ef81d2c5d26e1f9d1bf98d08bbe454498f8d1a87c645e3464e8c0ece86bfeaf2e",
+          "sha256": "a42dc7048f1b62c690cbd5300b8470e33a26caab7d0e34d2ba150a8bf91cf719",
+          "sha1": "6899e282d4055aecf40ad715f5ae957e4f06146f",
+          "md5": "879e342618e9286a4a267f4042c978d6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-json",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-network",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.amitshekhar.android",
+          "module": "android-networking",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-network-okhttp3-1.9.23.aar",
+          "url": "renetik-android-network-okhttp3-1.9.23.aar",
+          "size": 25156,
+          "sha512": "027e5b0c18db343af10b364bd1e7f8beb3d5bb1c84b2b021dff1ca7a53b2382ef81d2c5d26e1f9d1bf98d08bbe454498f8d1a87c645e3464e8c0ece86bfeaf2e",
+          "sha256": "a42dc7048f1b62c690cbd5300b8470e33a26caab7d0e34d2ba150a8bf91cf719",
+          "sha1": "6899e282d4055aecf40ad715f5ae957e4f06146f",
+          "md5": "879e342618e9286a4a267f4042c978d6"
+        }
+      ]
+    }
+  ]
+}
