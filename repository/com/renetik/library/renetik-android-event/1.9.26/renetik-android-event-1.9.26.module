@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-event",
+    "version": "1.9.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-event-1.9.26.aar",
+          "url": "renetik-android-event-1.9.26.aar",
+          "size": 77783,
+          "sha512": "cd5e304df471812e6a284e8f3a5da72b90e3e0054de1ea356471a54e088dcce52cb9d19fffd08011340c98bf0848571a6ce2d343e5d12bea4bcde80da87c1789",
+          "sha256": "778fbdd2265b772187466c2e1e5f5418d83a74b3c7fe9283f33163ac9d8a67b5",
+          "sha1": "3cdd5ce6d1a29f57d016183020b7b21a829a5339",
+          "md5": "f78fada9d332df09013acad2b4603418"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.26"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-event-1.9.26.aar",
+          "url": "renetik-android-event-1.9.26.aar",
+          "size": 77783,
+          "sha512": "cd5e304df471812e6a284e8f3a5da72b90e3e0054de1ea356471a54e088dcce52cb9d19fffd08011340c98bf0848571a6ce2d343e5d12bea4bcde80da87c1789",
+          "sha256": "778fbdd2265b772187466c2e1e5f5418d83a74b3c7fe9283f33163ac9d8a67b5",
+          "sha1": "3cdd5ce6d1a29f57d016183020b7b21a829a5339",
+          "md5": "f78fada9d332df09013acad2b4603418"
+        }
+      ]
+    }
+  ]
+}
