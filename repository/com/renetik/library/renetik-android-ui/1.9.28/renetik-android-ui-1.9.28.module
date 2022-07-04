@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-ui",
+    "version": "1.9.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "renetik-android-ui-1.9.28.aar",
+          "url": "renetik-android-ui-1.9.28.aar",
+          "size": 298972,
+          "sha512": "280d46190ff72d0e081c7fadbff786ff9c4b3af08cb0ec1ba9ff96e11650c31955d92de849fb46031196e118f19ea8e6aa09ded4f88c3c57c93cf9514e29c795",
+          "sha256": "b5e3e0fc2c4b634f8c32b1c3ee887d9234feb71868817e8ccb7ef8330aa78199",
+          "sha1": "73b6462fd18956198a64dc2100ba5f125286dff6",
+          "md5": "7d5410dd43f9ceeaccf9246d5f4da6ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.28"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.28"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-ui-1.9.28.aar",
+          "url": "renetik-android-ui-1.9.28.aar",
+          "size": 298972,
+          "sha512": "280d46190ff72d0e081c7fadbff786ff9c4b3af08cb0ec1ba9ff96e11650c31955d92de849fb46031196e118f19ea8e6aa09ded4f88c3c57c93cf9514e29c795",
+          "sha256": "b5e3e0fc2c4b634f8c32b1c3ee887d9234feb71868817e8ccb7ef8330aa78199",
+          "sha1": "73b6462fd18956198a64dc2100ba5f125286dff6",
+          "md5": "7d5410dd43f9ceeaccf9246d5f4da6ea"
+        }
+      ]
+    }
+  ]
+}

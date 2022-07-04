@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-core",
+    "version": "1.9.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "renetik-android-core-1.9.28.aar",
+          "url": "renetik-android-core-1.9.28.aar",
+          "size": 215067,
+          "sha512": "767815d2de07e7d9550f1ab28be79216858085a51737661149ab02e2afb9bc3d6180edb60991f96b5c3c707fb866c1b008b2e80f000b5c3677ba2ebb69629ad9",
+          "sha256": "3da2cbbc88b499ad49cc64b322ef0da3bd7c7aa1cfd1004712636891a4e9789e",
+          "sha1": "ad4df5a91e6638a773aa3df69ccf74c6ea95ffb8",
+          "md5": "8c5aca85154822dd0152d831fd609191"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-core-1.9.28.aar",
+          "url": "renetik-android-core-1.9.28.aar",
+          "size": 215067,
+          "sha512": "767815d2de07e7d9550f1ab28be79216858085a51737661149ab02e2afb9bc3d6180edb60991f96b5c3c707fb866c1b008b2e80f000b5c3677ba2ebb69629ad9",
+          "sha256": "3da2cbbc88b499ad49cc64b322ef0da3bd7c7aa1cfd1004712636891a4e9789e",
+          "sha1": "ad4df5a91e6638a773aa3df69ccf74c6ea95ffb8",
+          "md5": "8c5aca85154822dd0152d831fd609191"
+        }
+      ]
+    }
+  ]
+}
