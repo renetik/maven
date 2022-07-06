@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-ui-picker",
+    "version": "1.9.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.shawnlin",
+          "module": "number-picker",
+          "version": {
+            "requires": "2.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-ui-picker-1.9.32.aar",
+          "url": "renetik-android-ui-picker-1.9.32.aar",
+          "size": 11874,
+          "sha512": "f7333a27971b09689f0c992f92f17155ef64eed2ee025654cec881b25cb88204d40629621c2f54f00c58d1ea3c832b019fd1a26d31e24867d8007d254e228a42",
+          "sha256": "70c9a4eebd94fd50e3bb6464a70d14954047c2d46c32b98a168c7556e81f3752",
+          "sha1": "9268a5129cd1a6d98271c1014633779a200abc78",
+          "md5": "468a250239818a081b72ccce5dd333d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.shawnlin",
+          "module": "number-picker",
+          "version": {
+            "requires": "2.4.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.32"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.32"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.32"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller",
+          "version": {
+            "requires": "1.9.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-ui-picker-1.9.32.aar",
+          "url": "renetik-android-ui-picker-1.9.32.aar",
+          "size": 11874,
+          "sha512": "f7333a27971b09689f0c992f92f17155ef64eed2ee025654cec881b25cb88204d40629621c2f54f00c58d1ea3c832b019fd1a26d31e24867d8007d254e228a42",
+          "sha256": "70c9a4eebd94fd50e3bb6464a70d14954047c2d46c32b98a168c7556e81f3752",
+          "sha1": "9268a5129cd1a6d98271c1014633779a200abc78",
+          "md5": "468a250239818a081b72ccce5dd333d7"
+        }
+      ]
+    }
+  ]
+}
