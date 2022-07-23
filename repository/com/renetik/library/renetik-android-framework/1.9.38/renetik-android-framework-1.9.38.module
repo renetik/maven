@@ -1,0 +1,284 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-framework",
+    "version": "1.9.38",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-json",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-store",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-preset",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-network",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-network-okhttp3",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui-picker",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-material",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-imaging",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller-maps",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-framework-1.9.38.aar",
+          "url": "renetik-android-framework-1.9.38.aar",
+          "size": 33639,
+          "sha512": "ff26a4fa52617d86e955df543feea0fa0c87aef8f1f384212a712a3665de4f6b69d4a0a76443030854723e1532b829397d67bebec401d6484f05f7502ea095ac",
+          "sha256": "98297b881b4728d5befcae91d401ea8f62e3b9abc8ab67a95d5eb5c6f8f037c9",
+          "sha1": "61ae9b74cd3242f65c438045a57be6a11a8fbd01",
+          "md5": "c29a791061a58d49977082d0db9e0f2a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-json",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-store",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-preset",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-network",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-network-okhttp3",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui-picker",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-material",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-imaging",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller-maps",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-framework-1.9.38.aar",
+          "url": "renetik-android-framework-1.9.38.aar",
+          "size": 33639,
+          "sha512": "ff26a4fa52617d86e955df543feea0fa0c87aef8f1f384212a712a3665de4f6b69d4a0a76443030854723e1532b829397d67bebec401d6484f05f7502ea095ac",
+          "sha256": "98297b881b4728d5befcae91d401ea8f62e3b9abc8ab67a95d5eb5c6f8f037c9",
+          "sha1": "61ae9b74cd3242f65c438045a57be6a11a8fbd01",
+          "md5": "c29a791061a58d49977082d0db9e0f2a"
+        }
+      ]
+    }
+  ]
+}

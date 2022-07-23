@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-imaging",
+    "version": "1.9.38",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "renetik-android-imaging-1.9.38.aar",
+          "url": "renetik-android-imaging-1.9.38.aar",
+          "size": 16979,
+          "sha512": "26e56a76c316862cfd1f5eca037b2f5fd3c66a4719eeb18a71f2b359ebee51300fe68a07ee5256cc0976a37deb9f65b610f7d18cce4cee4c133d27780f44169d",
+          "sha256": "ac84787af051a41b1828be41e2457af1ccd220b0a960ea041e78359facd6e3c0",
+          "sha1": "dedcaa79ad4d0e899894186b88eee79f27e9e51b",
+          "md5": "db9f31212ec4531c428291a54aad8f40"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "1.9.38"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-imaging-1.9.38.aar",
+          "url": "renetik-android-imaging-1.9.38.aar",
+          "size": 16979,
+          "sha512": "26e56a76c316862cfd1f5eca037b2f5fd3c66a4719eeb18a71f2b359ebee51300fe68a07ee5256cc0976a37deb9f65b610f7d18cce4cee4c133d27780f44169d",
+          "sha256": "ac84787af051a41b1828be41e2457af1ccd220b0a960ea041e78359facd6e3c0",
+          "sha1": "dedcaa79ad4d0e899894186b88eee79f27e9e51b",
+          "md5": "db9f31212ec4531c428291a54aad8f40"
+        }
+      ]
+    }
+  ]
+}
